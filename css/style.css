@@ -1,0 +1,365 @@
+body {
+    font-family: Nunito, sans-serif;
+    color: #1c1c1c;
+}
+
+h1, h2, h3, h4 {
+    font-family: Nunito, sans-serif;
+    color: #000000;
+}
+
+*{
+    margin: 0% ;
+    padding: 0%;
+}
+.botao {
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 10px 30px;
+        background-color: #4848a8;
+        font-size: .4cm;
+        border-radius: 2px;
+}
+
+/* Navegação */
+
+nav {
+        display: flex;
+        flex-direction: column ;
+        align-items: stretch;
+        background-color: #484880;
+}
+
+nav > a {
+
+            text-decoration: none;
+            color: #FFFFFF;
+            font-weight: 800%;
+            font-size: 36px;
+            font-family: impact, fantasy, serif;
+}
+
+nav ul {
+
+        display: flex;
+        flex-direction: column ;
+        align-items:center;
+        list-style: none;
+        padding: 0;
+        width: 100% ;
+}
+
+nav ul li {
+
+            text-align: center;
+            width: 100%;
+}
+
+nav ul li a {
+
+        display: inline-block;
+        padding: 10px 0;
+        width: 100%;
+        text-decoration: none;
+        color: #FFFFFF;
+}
+
+header {
+        
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        background-image: url("../img/R.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 20px;
+
+}
+
+header h1{
+
+    color: #ffffff;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header p{
+    margin-bottom: 4cm;
+    font-size: 20px;
+}
+
+#sobre {
+
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #191970;
+    color: #FFFFFF;
+}
+
+#sobre h3 {
+    color:rgb(31, 215, 248);
+}
+
+#sobre p {
+    margin-bottom: 2,5cm;
+    max-width: 1000px;
+
+}
+
+#sobre .botao {
+
+    background-color: #f1f1f1;
+    color: #1c1c1c;
+}
+
+/*historia*/
+
+#história {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #191970;
+    color: #FFFFFF;
+
+}
+
+#história div {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    text-align: center;
+}
+
+#história h3{
+    color: rgb(31, 215, 248);
+}
+
+#história img{
+    width: 60%;
+    margin: 30px;
+}
+/*cultura*/
+
+#cultura {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #191970;
+    color: #FFFFFF;
+}
+
+#cultura h3 {
+            color: rgb(31, 215, 248);
+
+}
+
+
+/*turismo*/
+
+#turismo {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #191970;
+    color: #FFFFFF;
+}
+
+#turismo h3 {
+    color: rgb(31, 215, 248);
+}
+
+#turismo img{
+    width: 60%;
+    margin: 30px;
+}
+/*guardião*/
+
+#guardião {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #191970;
+    color: #FFFFFF;
+
+}
+
+#guardião h3 {
+    color:rgb(31, 215, 248);
+}
+#guardião img{
+    width: 60%;
+    margin: 30px;
+}
+/*sousatitan*/
+
+#sousatitan {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #191970;
+    color: #FFFFFF;
+}
+
+#sousatitan h3 {
+    color: rgb(31, 215, 248);
+}
+
+#sousatitan img{
+    width: 60%;
+    margin: 30px;S
+}
+/*fotos*/
+
+#fotos {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #191970;
+    color: #FFFFFF;
+}
+
+#fotos h3 {
+            margin-bottom: 20px;
+            color: rgb(31, 215, 248);
+}
+
+#fotos img {
+    display: flex;
+    flex-direction:row-reverse;
+    width: 400px;
+    margin: 30px;
+}
+
+/*contato*/
+#contato {      
+    display: flex;     
+    flex-direction: column ;     
+    align-items: center;     
+    text-align: center;     
+    padding: 10px 10px 20px 20px;     
+    background-color: #191970; }
+form {
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    background-color: #191970;
+    max-width: 500px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #66FFFF;
+    text-shadow: 5px 5px 5px black;
+}
+
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #000066;
+    box-shadow: 5px 0px 9px #292928;
+    background-color: #66FFFF;
+    color: black;
+    font-weight: bold;
+}
+
+.enviar {
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+/*rodapé*/
+
+footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #191970;
+        color: #FFFFFF;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (min-width: 768px){
+
+    /*nav*/
+
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul {
+
+        flex-direction: row;
+        width: 70%;
+    }
+
+    /*Cabeçalho*/
+
+    header {
+            height: 600px;
+            height: 60vh;
+            justify-content: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+  
+
